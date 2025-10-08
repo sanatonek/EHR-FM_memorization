@@ -1,4 +1,4 @@
-# An Investigation of Memorization Risk in Healthcare Foundation Models
+# An Investigation of Memorization Risk in Healthcare Foundation Models (NeurIPS 2025)
 
 ![Overview](overview.png)
 
@@ -43,6 +43,18 @@ It introduces a series of **black-box tests (T1–T6)** that distinguish between
 - **Distinction between memorization and generalization**, aligned with contextual privacy theory  
 - **Validated on EHRMamba2**, enabling benchmark comparison and community replication  
 - **Open-source and modular** for extension to new EHR models or datasets
+
+---
+
+## Authors
+
+**Sana Tonekaboni¹²³***, **Lena Stempfle¹⁴⁵***, **Adibvafa Fallahpour³⁶⁷***, **Walter Gerych⁸**, **Marzyeh Ghassemi¹**
+
+¹ MIT · ² Broad Institute of MIT and Harvard · ³ Vector Institute  
+⁴ Chalmers University of Technology · ⁵ University of Gothenburg  
+⁶ University of Toronto · ⁷ University Health Network (UHN) · ⁸ Worcester Polytechnic Institute  
+
+\* Equal contribution
 
 ---
 
