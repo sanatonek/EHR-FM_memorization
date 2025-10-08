@@ -5,9 +5,7 @@
 ---
 
 ## Abstract
-Foundation models trained on de-identified Electronic Health Records (EHRs) hold great potential for advancing clinical AI. However, their ability to memorize and inadvertently disclose sensitive patient information raises significant privacy concerns.  
-This repository implements a reproducible evaluation framework to **quantify and contextualize memorization risk** in EHR foundation models.  
-It introduces a series of **black-box tests (T1–T6)** that distinguish between benign generalization and harmful patient-level memorization, evaluated on **EHRMamba2**, a public benchmark model trained on MIMIC-IV.
+Foundation models trained on large-scale de-identified electronic health records (EHRs) hold promise for clinical applications. However, their capacity to memorize patient information raises important privacy concerns. In this work, we introduce a suite of black-box evaluation tests to assess privacy-related memorization risks in foundation models trained on structured EHR data. Our framework includes methods for probing memorization at both the embedding and generative levels, and aims to distinguish between model generalization and harmful memorization in clinically relevant settings. We contextualize memorization in terms of its potential to compromise patient privacy, particularly for vulnerable subgroups. We validate our approach on a publicly available EHR foundation model and release an open-source toolkit to facilitate reproducible and collaborative privacy assessments in healthcare AI.
 
 ---
 
