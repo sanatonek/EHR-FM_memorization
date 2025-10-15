@@ -72,7 +72,7 @@ const paper = {
       "<strong>Black-box evaluation suite (T1–T6):</strong> Practical tests spanning <em>generative</em> leakage (trajectory reconstruction, sensitive attribute prediction) and <em>embedding</em> leakage (probing, membership inference).",
       "<strong>Risk-aware framing:</strong> Assesses privacy through contextual integrity, prioritizing patient-level harm rather than raw leakage counts.",
       "<strong>Memorization vs. generalization:</strong> Perturbation (T5) and subgroup (T6) tests to separate individual memorization from population-level trends.",
-      "<strong>Toolkit & reproducibility:</strong> Open-source implementation for auditing EHR-FMs under realistic prompt-only access.",
+      "<strong>Toolkit & reproducibility:</strong> Open-source implementation for auditing EHR-FMs under prompt-only access.",
       "<strong>Empirical validation:</strong> Demonstration on a public EHR foundation model trained on structured codes."
     ],
   
