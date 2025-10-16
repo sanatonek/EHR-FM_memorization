@@ -14,7 +14,7 @@ const paper = {
   },
 
   navbar: {
-    home_link: "https://bowang-lab.github.io",
+    home_link: "https://arxiv.org/abs/2510.12950",
     more_research: [
       { name: "MIT", link: "https://www.mit.edu" },
       { name: "Vector Institute", link: "https://vectorinstitute.ai" },
@@ -50,7 +50,7 @@ const paper = {
     {
       name: "arXiv",
       icon: "ai ai-arxiv",
-      link: "https://github.com/sanatonek/EHR-FM_memorization"
+      link: "https://arxiv.org/abs/2510.12950"
     },
     {
       name: "GitHub",
@@ -138,6 +138,13 @@ const paper = {
       "We provide a practical, risk-aware framework to evaluate memorization in EHR foundation models using only black-box access. By combining generative and embedding tests with perturbation and subgroup analyses, we distinguish harmful patient-level memorization from acceptable generalization. On a public EHR-FM, we find that leakage increases with richer prompts and can concentrate in identifiable cohorts. Our open-source tooling enables reproducible audits and complements post-training safety layers, red-teaming, and retraining to harden EHR-FMs prior to deployment.",
   },
   
-  // Keep BibTeX empty for now
-  bibtex: ``,  
+  bibtex: `@misc{tonekaboni2025investigationmemorizationriskhealthcare,
+      title={An Investigation of Memorization Risk in Healthcare Foundation Models},
+      author={Sana Tonekaboni and Lena Stempfle and Adibvafa Fallahpour and Walter Gerych and Marzyeh Ghassemi},
+      year={2025},
+      eprint={2510.12950},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.12950},
+}`,  
 };
