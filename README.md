@@ -60,14 +60,10 @@ Foundation models trained on large-scale de-identified electronic health records
 If you use this work, please cite it as follows:
 
 ```bibtex
-@misc{tonekaboni2025investigationmemorizationriskhealthcare,
-      title={An Investigation of Memorization Risk in Healthcare Foundation Models}, 
-      author={Sana Tonekaboni and Lena Stempfle and Adibvafa Fallahpour and Walter Gerych and Marzyeh Ghassemi},
-      year={2025},
-      eprint={2510.12950},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.12950}, 
+@inproceedings{tonekaboniinvestigation,
+  title={An Investigation of Memorization Risk in Healthcare Foundation Models},
+  author={Tonekaboni, Sana and Stempfle, Lena and Fallahpour, Adibvafa and Gerych, Walter and Ghassemi, Marzyeh},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems}
 }
 ````
 
